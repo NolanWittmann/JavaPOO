@@ -10,5 +10,16 @@ class Classroom {
         System.out.println(Nolan.whoAmI());
         System.out.println(Vincent.whoAmI());
         System.out.println(Leila.whoAmI());
+
+        Vincent.setAware(false);
+
+        Wilder Melvin = Leila;
+
+        Melvin.setName("Melvin");
+
+        System.out.println(Melvin.whoAmI());
+        System.out.println(Vincent.whoAmI());
+        System.out.println(Leila.whoAmI());
+
     }
 }
